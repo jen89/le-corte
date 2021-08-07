@@ -194,22 +194,22 @@ body {
    margin: 30px 0;
 }
 
-.new-product__col-year {
+.new-products__col-year {
    padding: 0 30px;
    border-right: 1px solid #282828;
    border-bottom: 1px solid #282828;
 }
 
-.new-product__col-name {
+.new-products__col-name {
    border-bottom: 1px solid #282828;
    padding: 10px 0 5px 30px;
 }
 
-.new-product__col--bottom {
+.new-products__col--bottom {
    border-bottom: none;
 }
 
-.new-product__name {
+.new-products__name {
    font-family: 'Playfair Display', serif;
    font-size: 18px;
    line-height: 27px;
@@ -217,7 +217,7 @@ body {
    padding-bottom: 5px;
 }
 
-.new-product__descr {
+.new-products__descr {
    padding-bottom: 15px;
 }
 
@@ -384,8 +384,12 @@ body {
    flex-grow: 1;
    border-left: 1px solid #fff;
    text-align: center;
-   padding: 20px 0;
+   padding: 20px 15px;
    box-sizing: border-box;
+}
+
+.footer__le-corte {
+   border-left: none;
 }
 
 .footer__social-icon a {
